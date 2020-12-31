@@ -8,4 +8,4 @@ var RoomSchema = new mongoose.Schema({
 }, {timestamps: true});
 
 
-module.exports = mongoose.model("Rool", RoomSchema);
+module.exports = mongoose.model("Room", RoomSchema);
